@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom';
+import logoW from '../assets/logo-white.png'
 
 interface NavLinkItem {
     to: string;
@@ -26,7 +27,7 @@ export default function NavBar(props: NavBarProps) {
 
                     {/* Logo Section */}
                     <div className="shrink-0 flex items-center">
-
+                        <img src={logoW} alt="ShadowDark" />
                     </div>
 
                 
@@ -35,7 +36,7 @@ export default function NavBar(props: NavBarProps) {
                             <Link
                                 key={item.label}
                                 to={item.to}
-                                className="text-white hover:bg-indigo-50 hover:text-indigo-600 px-3 py-2 rounded-lg text-base font-medium transition duration-150"
+                                className="text-white hover:bg-indigo-50 hover:text-black px-3 py-2  text-base font-medium transition duration-150"
                             >
                                 {item.label}
                             </Link>
