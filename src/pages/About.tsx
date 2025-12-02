@@ -1,7 +1,9 @@
 import React from 'react'
-
+import Page from '../components/Page'
 export default function About() {
-  return (
-    <div>About</div>
-  )
+    return (
+        <Page>
+            About
+        </Page>
+    )
 }

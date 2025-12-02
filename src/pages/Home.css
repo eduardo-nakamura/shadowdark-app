@@ -1,0 +1,7 @@
+.bg-img{
+    background-image: url('../assets/21.jpg');
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: right;
+    background-color: var(--bg-dark);
+}

@@ -1,7 +1,13 @@
-import React from 'react'
+import { useSelector } from 'react-redux';
+import type { RootState } from '../store';
+import Page from '../components/Page'
+
+const useCharacterName = () => useSelector((state: RootState) => state.character.name);
 
 export default function CharCreator() {
+  const characterName = useCharacterName();
+
   return (
-    <div>CharCreator</div>
+    <Page>CharCreator {characterName}</Page>
   )
 }
