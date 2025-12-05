@@ -1,0 +1,154 @@
+{
+  "name": "Grubgor",
+  "stats": {
+    "STR": 17,
+    "DEX": 8,
+    "CON": 7,
+    "INT": 11,
+    "WIS": 10,
+    "CHA": 10
+  },
+  "rolledStats": {
+    "STR": 15,
+    "DEX": 8,
+    "CON": 7,
+    "INT": 11,
+    "WIS": 10,
+    "CHA": 10
+  },
+  "ancestry": "Half-Orc",
+  "class": "Knight of St. Ydris",
+  "level": 1,
+  "levels": [
+    {
+      "level": 1,
+      "talentRolledDesc": "+2 to Strength, Dexterity, or Constitution stat",
+      "talentRolledName": "StatBonus",
+      "Rolled12TalentOrTwoStatPoints": "",
+      "Rolled12ChosenTalentDesc": "",
+      "Rolled12ChosenTalentName": "",
+      "HitPointRoll": 5,
+      "stoutHitPointRoll": 0
+    }
+  ],
+  "XP": 0,
+  "ambitionTalentLevel": {
+    "level": 1,
+    "talentRolledDesc": "",
+    "talentRolledName": "",
+    "Rolled12TalentOrTwoStatPoints": "",
+    "Rolled12ChosenTalentDesc": "",
+    "Rolled12ChosenTalentName": "",
+    "HitPointRoll": 0,
+    "stoutHitPointRoll": 0
+  },
+  "title": "Arbiter",
+  "alignment": "Lawful",
+  "background": "Fisher",
+  "deity": "All Nord Gods",
+  "maxHitPoints": 3,
+  "armorClass": 10,
+  "gearSlotsTotal": 17,
+  "gearSlotsUsed": 3,
+  "bonuses": [
+    {
+      "sourceType": "Class",
+      "sourceName": "Knight of St. Ydris",
+      "sourceCategory": "Talent",
+      "gainedAtLevel": 1,
+      "name": "StatBonus",
+      "bonusTo": "STR:+2",
+      "bonusName": "StatBonus"
+    }
+  ],
+  "goldRolled": 20,
+  "gold": 0,
+  "silver": 0,
+  "copper": 0,
+  "gear": [
+    {
+      "instanceId": "mioyq4q5",
+      "gearId": "w9",
+      "name": "Longsword",
+      "type": "weapon",
+      "quantity": 1,
+      "totalUnits": 1,
+      "slots": 1,
+      "cost": 9,
+      "currency": "gp"
+    },
+    {
+      "instanceId": "mioyq4q6",
+      "gearId": "w4",
+      "name": "Dagger",
+      "type": "weapon",
+      "quantity": 1,
+      "totalUnits": 1,
+      "slots": 1,
+      "cost": 1,
+      "currency": "gp"
+    },
+    {
+      "instanceId": "mioyq4q7",
+      "gearId": "a1",
+      "name": "Leather armor",
+      "type": "armor",
+      "quantity": 1,
+      "totalUnits": 1,
+      "slots": 1,
+      "cost": 10,
+      "currency": "gp"
+    }
+  ],
+  "treasures": [],
+  "magicItems": [],
+  "attacks": [
+    "DAGGER: +4/+3 (N), 1d4+1/1d4 (FIN)",
+    "LONGSWORD: +4, 1d8+1",
+    "Demonic Possession: 3/day, +1 damage for 3 rounds",
+    "SPELLS: To cast a Witch spell, roll 1d20+0 vs a DC equal to 10 + the spell's tier."
+  ],
+  "ledger": [
+    {
+      "goldChange": 20,
+      "silverChange": 0,
+      "copperChange": 0,
+      "desc": "Starting gold",
+      "notes": ""
+    },
+    {
+      "goldChange": -9,
+      "silverChange": 0,
+      "copperChange": 0,
+      "desc": "Buy Longsword",
+      "notes": ""
+    },
+    {
+      "goldChange": -1,
+      "silverChange": 0,
+      "copperChange": 0,
+      "desc": "Buy Dagger",
+      "notes": ""
+    },
+    {
+      "goldChange": -10,
+      "silverChange": 0,
+      "copperChange": 0,
+      "desc": "Buy Leather armor",
+      "notes": ""
+    }
+  ],
+  "spellsKnown": "None",
+  "languages": "Common, Diabolic, Orcish",
+  "creationMethod": "Random 1",
+  "coreRulesOnly": true,
+  "activeSources": [
+    "SD",
+    "SG",
+    "CS1",
+    "CS2",
+    "CS3",
+    "CS4"
+  ],
+  "edits": []
+}
