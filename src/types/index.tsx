@@ -11,6 +11,11 @@ export interface Character {
   wisdom: number;
   constitution: number;
   charisma: number;
+  allBonuses: {
+    equipment: { strength: number, dexterity: number,intelligence: number,wisdom: number, constitution: number, charisma: number, };
+    magic: { strength: number, dexterity: number,intelligence: number,wisdom: number, constitution: number, charisma: number, };
+    temporary: { strength: number, dexterity: number,intelligence: number,wisdom: number, constitution: number,charisma: number, };
+  };
   hp: number;
   gp: number;
   sp: number;
